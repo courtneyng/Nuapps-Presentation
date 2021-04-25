@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+h1 {
+  font-family: Montserrat;
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.black {
+  background-color: black;
+}
+
+.sideBar {
+  opacity: 75%;
+  position: absolute;
+  z-index: 50;
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  right: 0;
+  top: 85vh;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.sideBar h1 {
+  position: relative;
+  font-size: medium;
+  color: white;
+  font-family: Montserrat;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 15.5px;
+}
+
+.sideBar #blacc h1 {
+  color: black;
+}
+
+#blacc {
+  background-color: white;
+  color: #000;
+}
+
+.phone1 {
+  top: 250px;
+  position: absolute;
+}
+
+.phone1 img {
+  height: 450px;
+  width: 1000px;
+  left: 250px;
+  position: absolute;
+}
+
+.phone1 video {
+  top: 15px;
+  left: 270px;
+  position: absolute;
+}
+
+.phone2 {
+  top: 50px;
+  position: absolute;
+}
+
+.phone2 img {
+  height: 800px;
+  width: 400px;
+  left: 580px;
+  position: absolute;
+  z-index: 50;
+}
+
+.phone2 video {
+  top: 23px;
+  left: 500px;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
